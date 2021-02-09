@@ -9,3 +9,8 @@ body {
 .hr{
     color: cornflowerblue;
 }
+.card-img-top{
+    display: inline-block;
+    height: 40%;
+    text-align: center;
+}
