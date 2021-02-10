@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS (version 4.6) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" crossorigin="anonymous">  
     <!--google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,7 +17,7 @@
     <link rel="shortcut icon" type="image/png" href="assets/img/viajes.svg">
 </head>
 <body>
-
+    <!--navbar sección-->
     <nav class=" barra navbar navbar-expand-lg navbar-light bg-light fixed-top  px-3 py-3 font-text-light">
         <div class="container">
             <a class="navbar-brand" href="#"><img class="logo-nav" src="assets/img/viajes.svg"  alt="viajes"></a>VIAJES CHILE
@@ -45,6 +45,8 @@
             </div>
         </div>
     </nav>
+
+    <!--carousel-->
     <div id="carouselExampleControls" class="carousel slide pb-5" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -72,7 +74,8 @@
 
     </div>
 
-    <section id="quienessomos" class="py-5 pb-3 container d-none d-sm-none d-md-block"> 
+    <!--sección quiénes somos (desaparece en versión mobile)-->
+        <section id="quienessomos" class="py-5 pb-3 container d-none d-sm-none d-md-block"> 
         <h1 class="text-center py-1
         "> ¿quiénes somos?</h1>
         <hr class="my-5 text-center bg-info"> 
@@ -105,7 +108,7 @@
 
     </section>
 
-
+    <!--sección Destacados con imágenes-->
     <section id="destacados" class="container py-5">
 
         <h2 class="py-3 text-center ">Destacados</h2>
@@ -150,7 +153,7 @@
     </section>
 
   
-
+    <!--sección Contacto (typeform)-->
     <section id="contact" class="container py-5 text-center">
         <h2>Contacto</h2>
         <hr class="linea text-center  mb-3 bg-info">
@@ -158,6 +161,7 @@
         <div class="typeform-widget" data-url="https://form.typeform.com/to/BQONgOc6?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </section>
 
+        <!--footer con iconos-->
     <footer class="container-fluid text-white bg-info">
         <div class="container">
             <div class="row">
